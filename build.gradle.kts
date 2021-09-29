@@ -30,7 +30,7 @@ kotlin {
     sourceSets {
         val nativeMain by getting {
             dependencies {
-                implementation("com.github.d-lowl.kmenu-lib:kmenu:master-SNAPSHOT")
+                implementation("com.github.d-lowl.kmenu-lib:kmenu:1.0")
             }
         }
         val nativeTest by getting
